@@ -70,3 +70,59 @@
 
 // let date = new Date('June 25 1998 07:25')
 // console.log(date);
+
+//function hoisting
+// sayMyName("Sagar");
+// function sayMyName(finalName){
+// console.log(finalName);
+
+// }
+
+//let and const hoisting
+// console.log(age);
+// let age = 25;
+
+// console.log(age);
+// const age = 25;
+
+//declaration function type
+
+// sayMyName();
+
+// let sayMyName = function(){
+//     console.log("hello world")
+// }
+
+
+// Function is first class citizen
+// bz
+
+// 1 function used as variable
+
+// const greeting= function (){
+//     console.log("Hello jee, greetings of the day")
+// }
+// greeting();
+
+//2  function passing
+// function greetMe(greet, fullName){
+// console.log("hello",fullName)
+// greet();
+// }
+
+// function greet(){
+//     console.log("Greeting of the day")
+// }
+
+// greetMe(greet, "Sagar");
+
+//* classes
+
+
+//* error handling
+// custom error throw
+// let errorCode=101;
+
+//     if (errorCode==101){
+//         throw new Error("Invalid Json");
+//     }
